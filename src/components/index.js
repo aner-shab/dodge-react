@@ -3,3 +3,4 @@ export Enemy from './Enemy.jsx';
 export GameInfo from './GameInfo.jsx';
 export Player from './Player.jsx';
 export Square from './Square.jsx';
+export Disc from './Disc.jsx';
