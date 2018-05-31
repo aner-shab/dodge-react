@@ -4,7 +4,10 @@
   "description": "A simple game made with React.",
   "scripts": {
     "lint": "eslint src",
-    "start": "node server.js"
+    "start": "node server.js",
+    "webpack": "webpack -p --progress",
+    "build": "./node_modules/.bin/webpack-cli",
+    "watch": "./node_modules/.bin/webpack-cli --watch"
   },
   "repository": "https://github.com/aner-shab/dodge-react.git",
   "keywords": [
@@ -31,7 +34,8 @@
     "node-sass": "^4.5.2",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
-    "webpack": "^2.4.1",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^2.4.4"
   },
   "dependencies": {
